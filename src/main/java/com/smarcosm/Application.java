@@ -14,6 +14,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
  *
  * @author smarcosm
  */
+
 @EnableFeignClients
 @SpringBootApplication
 public class Application {

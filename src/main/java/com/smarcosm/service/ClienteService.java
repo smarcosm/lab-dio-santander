@@ -1,6 +1,8 @@
 package com.smarcosm.service;
 
 import com.smarcosm.model.Cliente;
+import org.springframework.stereotype.Service;
+
 
 public interface ClienteService {
     Iterable<Cliente> buscarTodos();

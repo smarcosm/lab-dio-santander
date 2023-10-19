@@ -1,7 +1,11 @@
 package com.smarcosm.model;
 
-public class Endereco {
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 
+@Entity
+public class Endereco {
+    @Id
     private String cep;
     private String logradouro;
     private String complemento;
